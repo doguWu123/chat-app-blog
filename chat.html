@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chat-App</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  </head>
+  <body>
+
+
+    <div id="chat">
+          
+          <div id="chat" class="mb-3">
+            <!-- messages will display here -->
+            <ul id="messages" style="margin: 4px;"></ul>
+      
+            <!-- form to send message -->
+            <form id="message-form">
+              <input id="message-input" class="form-control" style="width: 22rem; margin: 4px;">
+              <button id="message-btn" type="submit" class="btn btn-success" style="margin: 4px;">Send</button>
+            </form>
+          </div>
+          
+      
+          <!-- scripts -->
+          <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+          <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+          <script src="chat.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+       
+      </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script> -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <!-- <script src="login.js"></script> -->
+  </body>
+</html>
