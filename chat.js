@@ -1,11 +1,11 @@
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyBxJcfsaFNjjgYBM2iGVABzl44SrPJZXws",
-  authDomain: "chat-app-blog-181d6.firebaseapp.com",
-  projectId: "chat-app-blog-181d6",
-  storageBucket: "chat-app-blog-181d6.appspot.com",
-  messagingSenderId: "553055989262",
-  appId: "1:553055989262:web:bdce3049d9eece4ec4d65f",
+  apiKey: "your api-key here!",
+  authDomain: "your authDomain here!",
+  projectId: "your projectId here!",
+  storageBucket: "you stroagebucket id here!",
+  messagingSenderId: "message-sender-id here!",
+  appId: "appId here!",
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
